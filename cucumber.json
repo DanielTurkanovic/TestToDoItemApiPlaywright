@@ -1,0 +1,18 @@
+{
+  "default": {
+    "format": [
+      "@cucumber/pretty-formatter",
+      "html:reports/cucumber-report.html",
+      "json:reports/cucumber-report.json"
+    ],
+    "parallel": 1,
+    "paths": ["features/**/*.feature"],
+    "require": [
+      "features/step-definitions/**/*.ts"
+    ],
+    "requireModule": ["ts-node/register"],
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    }
+  }
+}

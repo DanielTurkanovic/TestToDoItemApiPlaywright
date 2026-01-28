@@ -1,0 +1,28 @@
+{
+  "name": "testtodoitemapiplaywright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:playwright": "playwright test",
+    "test:auth": "playwright test AuthSetup.spec.ts",
+    "test:crud": "playwright test ToDoItemCrudFlow.spec.ts",
+    "test:negative": "playwright test ToDoItemNegative.spec.ts",
+    "test:cucumber": "cucumber-js -c cucumber.json",
+    "test:all": "npm run test:auth && npm run test:playwright && npm run test:cucumber",
+    "test:learning": "npm run test:auth && npm run test:cucumber"
+  },
+  "keywords": ["playwright", "API", "BDD", "Cucumber", "ToDoItem"],
+  "author": "Daniel Turkanovic",
+  "license": "ISC",
+  "description": "Automated tests for ToDoItem API using Playwright and Cucumber BDD.",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@cucumber/pretty-formatter": "^2.4.1",
+    "dotenv": "^17.2.3"
+  }
+}

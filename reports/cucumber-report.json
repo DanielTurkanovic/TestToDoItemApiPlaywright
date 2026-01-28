@@ -1,0 +1,382 @@
+[
+  {
+    "description": "  As an authenticated user\n  I want to manage my ToDo items using BDD approach\n  So that I can verify API functionality with business-readable tests",
+    "elements": [
+      {
+        "description": "",
+        "id": "todo-item-management-with-gherkin;create-and-verify-a-new-todo-item",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Create and verify a new ToDo item",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10824999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am an authenticated user",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7751999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I create a new ToDo item with title \"Learn Playwright\" and description \"Study testing framework\"",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161626999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the item should be created successfully",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2956000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should be able to find it in my ToDo list",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20525200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24246599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "todo-item-management-with-gherkin;update-an-existing-todo-item",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Update an existing ToDo item",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1397500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I have an existing ToDo item",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21319099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I update the item title to \"Master Playwright\" and mark it as completed",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:164"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31182599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the item should be updated successfully",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1322799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the changes should be reflected in the system",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18302599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27117400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "todo-item-management-with-gherkin;search-for-todo-items",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Search for ToDo items",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1329200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I have multiple ToDo items",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76520799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I search for items with term \"Playwright\"",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:179"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16011100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should see relevant search results",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:226"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1596500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12397099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "todo-item-management-with-gherkin;get-specific-todo-item",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Get specific ToDo item",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1117300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I have an existing ToDo item",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22718899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I get the item by ID",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:188"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11820699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the response status should be 200",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:237"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1980599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the item should have title \"Test Item for Gherkin\"",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:241"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3086200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19106499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "todo-item-management-with-gherkin;create-item-with-special-characters",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Create item with special characters",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1557399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "I am an authenticated user",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 252099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I create a new ToDo item with title \"Test @#$%^&*()\" and description \"Special chars !@#$%\"",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22095400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the item should be created successfully",
+            "match": {
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2755700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26597900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "todo-item-management-with-gherkin",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "ToDo Item Management with Gherkin",
+    "tags": [],
+    "uri": "features\\ToDo.feature"
+  }
+]
