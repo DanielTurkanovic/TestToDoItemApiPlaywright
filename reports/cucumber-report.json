@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10824999
+              "duration": 12208900
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7751999
+              "duration": 6206400
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 8,
             "name": "I create a new ToDo item with title \"Learn Playwright\" and description \"Study testing framework\"",
             "match": {
-              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:149"
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:136"
             },
             "result": {
               "status": "passed",
-              "duration": 161626999
+              "duration": 1171771099
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 9,
             "name": "the item should be created successfully",
             "match": {
-              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:194"
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:158"
             },
             "result": {
               "status": "passed",
-              "duration": 2956000
+              "duration": 3282000
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 10,
             "name": "I should be able to find it in my ToDo list",
             "match": {
-              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:201"
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:165"
             },
             "result": {
               "status": "passed",
-              "duration": 20525200
+              "duration": 215643700
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 24246599
+              "duration": 85761100
             }
           }
         ],
@@ -93,7 +93,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1397500
+              "duration": 1659799
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21319099
+              "duration": 40305100
             }
           },
           {
@@ -115,11 +115,11 @@
             "line": 14,
             "name": "I update the item title to \"Master Playwright\" and mark it as completed",
             "match": {
-              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:164"
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:141"
             },
             "result": {
               "status": "passed",
-              "duration": 31182599
+              "duration": 98423200
             }
           },
           {
@@ -128,11 +128,11 @@
             "line": 15,
             "name": "the item should be updated successfully",
             "match": {
-              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:212"
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:173"
             },
             "result": {
               "status": "passed",
-              "duration": 1322799
+              "duration": 1170799
             }
           },
           {
@@ -141,11 +141,11 @@
             "line": 16,
             "name": "the changes should be reflected in the system",
             "match": {
-              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:216"
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:177"
             },
             "result": {
               "status": "passed",
-              "duration": 18302599
+              "duration": 25646099
             }
           },
           {
@@ -153,7 +153,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 27117400
+              "duration": 27331499
             }
           }
         ],
@@ -172,7 +172,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1329200
+              "duration": 1281399
             }
           },
           {
@@ -181,11 +181,11 @@
             "line": 19,
             "name": "I have multiple ToDo items",
             "match": {
-              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:121"
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:120"
             },
             "result": {
               "status": "passed",
-              "duration": 76520799
+              "duration": 76405499
             }
           },
           {
@@ -194,11 +194,11 @@
             "line": 20,
             "name": "I search for items with term \"Playwright\"",
             "match": {
-              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:179"
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:146"
             },
             "result": {
               "status": "passed",
-              "duration": 16011100
+              "duration": 88661300
             }
           },
           {
@@ -207,11 +207,11 @@
             "line": 21,
             "name": "I should see relevant search results",
             "match": {
-              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:226"
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:184"
             },
             "result": {
               "status": "passed",
-              "duration": 1596500
+              "duration": 1708699
             }
           },
           {
@@ -219,7 +219,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12397099
+              "duration": 1139299
             }
           }
         ],
@@ -238,7 +238,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1117300
+              "duration": 1209299
             }
           },
           {
@@ -251,7 +251,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22718899
+              "duration": 33099299
             }
           },
           {
@@ -260,11 +260,11 @@
             "line": 25,
             "name": "I get the item by ID",
             "match": {
-              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:188"
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:154"
             },
             "result": {
               "status": "passed",
-              "duration": 11820699
+              "duration": 16353500
             }
           },
           {
@@ -273,11 +273,11 @@
             "line": 26,
             "name": "the response status should be 200",
             "match": {
-              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:237"
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:192"
             },
             "result": {
               "status": "passed",
-              "duration": 1980599
+              "duration": 1013200
             }
           },
           {
@@ -286,11 +286,11 @@
             "line": 27,
             "name": "the item should have title \"Test Item for Gherkin\"",
             "match": {
-              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:241"
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:196"
             },
             "result": {
               "status": "passed",
-              "duration": 3086200
+              "duration": 2049500
             }
           },
           {
@@ -298,7 +298,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 19106499
+              "duration": 43060600
             }
           }
         ],
@@ -317,7 +317,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1557399
+              "duration": 1501600
             }
           },
           {
@@ -330,7 +330,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 252099
+              "duration": 267600
             }
           },
           {
@@ -339,11 +339,11 @@
             "line": 31,
             "name": "I create a new ToDo item with title \"Test @#$%^&*()\" and description \"Special chars !@#$%\"",
             "match": {
-              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:149"
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:136"
             },
             "result": {
               "status": "passed",
-              "duration": 22095400
+              "duration": 26585300
             }
           },
           {
@@ -352,11 +352,11 @@
             "line": 32,
             "name": "the item should be created successfully",
             "match": {
-              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:194"
+              "location": "file:\\C:\\Users\\danie\\source\\repos\\TestToDoItemApiPlaywright\\features\\step-definitions\\ToDo.steps.ts:158"
             },
             "result": {
               "status": "passed",
-              "duration": 2755700
+              "duration": 1839899
             }
           },
           {
@@ -364,7 +364,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 26597900
+              "duration": 26992000
             }
           }
         ],
