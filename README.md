@@ -87,6 +87,34 @@ This repository contains automated API tests for a ToDo Items API, built with Pl
 <h2> Reports</h2>
 <p>After test execution, open <code>cucumber-report.html</code> for a detailed Cucumber report.</p>
 
+<h2> Load & Performance Tests (k6)</h2>
+<p>In addition to functional API tests, this project includes load and mixed scenario performance tests using <strong>k6</strong>.</p>
+
+<h3>1. Todo-load.spec.js</h3>
+<p>
+    Simple load test simulating multiple users retrieving ToDo items. Features:
+<ul>
+    <li>Stages-based load: ramp-up to 100 users, sustain, and ramp-down</li>
+    <li>Authentication using a login API endpoint</li>
+    <li>GET requests to <code>/api/ToDoItems</code> endpoint</li>
+    <li>Performance threshold: 95% of requests under 500ms</li>
+    <li>HTML report generated after the test</li>
+</ul>
+</p>
+
+<h3>2. Todo-api-mixed.spec.js</h3>
+<p>
+    Mixed load test simulating readers and writers concurrently. Features:
+<ul>
+    <li>Two scenarios: readers (GET) and writers (POST)</li>
+    <li>Readers: 15 users continuously fetching ToDo items</li>
+    <li>Writers: 5 users continuously creating unique ToDo items</li>
+    <li>Authentication using login endpoint and bearer tokens</li>
+    <li>Performance threshold: 95% of requests under 500ms</li>
+    <li>HTML report generated after the test</li>
+</ul>
+</p>
+
 <h2> Important Note</h2>
 <p><strong>These tests depend on the ToDoItemApi service.</strong> Ensure it is running before executing any tests.</p>
 

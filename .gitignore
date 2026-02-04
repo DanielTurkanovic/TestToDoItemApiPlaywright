@@ -11,6 +11,10 @@ playwright-report/
 playwright-traces/
 blob-report/
 
+# k6 load test reports (generated HTML)
+summary.html
+summary-mixed.html
+
 # IDE
 .vscode/
 .idea/

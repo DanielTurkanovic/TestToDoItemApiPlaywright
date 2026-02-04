@@ -8,7 +8,10 @@
     "test:crud": "playwright test ToDoItemCrudFlow.spec.ts",
     "test:negative": "playwright test ToDoItemNegative.spec.ts",
     "test:cucumber": "cucumber-js -c cucumber.json",
-    "test:all": "npm run test:auth && npm run test:playwright && npm run test:cucumber",
+    "test:load": "k6 run performance-tests/scripts/Todo-api-load.spec.js",
+    "test:mixed": "k6 run performance-tests/scripts/Todo-api-mixed.spec.js",
+    "test-load": "k6 run -e BASE_URL=https://localhost:7101 ./performance-tests/scripts/Todo-api-load.spec.js",
+    "test:all": "npm run test:auth && npm run test:playwright && npm run test:cucumber && npm run test:load",
     "test:learning": "npm run test:auth && npm run test:cucumber"
   },
   "keywords": ["playwright", "API", "BDD", "Cucumber", "ToDoItem"],
