@@ -32,7 +32,7 @@ export function setup() {
     }), { headers: { 'Content-Type': 'application/json' } });
 
     if (res.status !== 200) {
-        console.error('Login nije uspeo! Proveri kredencijale.');
+        console.error('Login is not successful. Check credentials:', res.status);
         return { token: null };
     }
     return { token: res.json().token };
