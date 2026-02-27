@@ -64,8 +64,8 @@ export function createAction(data) {
     // Comabing timestamp and random number for uniqueness
     const randomId = Math.floor(Math.random() * 1000);
     const body = JSON.stringify({ 
-        Title: `Zadatak-${Date.now()}-${randomId}`, 
-        Description: "Load test sa unikatnim naslovom",
+        Title: `Task-${Date.now()}-${randomId}`, 
+        Description: "Load test with unique title",
         IsCompleted: false 
     });
 
